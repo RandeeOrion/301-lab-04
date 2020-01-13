@@ -1,0 +1,288 @@
+@media (max-width: 640px) {
+  /* phone */
+
+  html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #header {
+    width: 100%;
+    height: 75px;
+  }
+
+  #nav {
+    width: 100%;
+    height: 150px;
+  }
+
+  #largeContent {
+    width: 100%;
+    height: 250px;
+  }
+
+  #smallContent {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+  }
+
+  #smallContent > p {
+    width: 50%;
+    height: 50%;
+    margin: 0px;
+  }
+
+  #a, #b, #c, #d, #e, #f, #g, #h, #j{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black .5px;
+    margin: 0px;
+  }
+
+  #a {
+    background-color: aliceblue;
+    height: 75px;
+  }
+
+  #b {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 150px;
+  }
+
+  #c {
+    background-color: aqua;
+    height: 125px;
+  }
+
+  #d {
+    background-color: aquamarine;
+    height: 125px;
+  }
+
+  #e {
+    background-color: azure; 
+  }
+
+  #f {
+    background-color: beige;
+}
+
+  #g {
+    background-color: bisque;
+  }
+
+  #h {
+    background-color: orange;
+  }
+
+  #j {
+    background-color: blue;
+    height: 80px;
+  }
+}
+
+@media (min-width: 641px){
+  /* tablet */
+  body {
+    min-width: 641px;
+  }
+
+  html, body {
+    width: 100%;
+  }
+
+  #header {
+    width: 100%;
+    height: 75px;
+  }
+
+  #nav {
+    width: 100%;
+    height: 150px;
+  }
+
+  #largeContent {
+    width: 100%;
+    height: 250px;
+  }
+
+  #smallContent {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+  }
+
+  #smallContent > p {
+    width: 50%;
+    height: 50%;
+    margin: 0px;
+  }
+
+  #a, #b, #c, #d, #e, #f, #g, #h, #j{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black .5px;
+    margin: 0px;
+  }
+
+  #a {
+    background-color:lemonchiffon;
+    height: 75px;
+  }
+
+  #b {
+    background-color:lightblue;
+    width: 100%;
+    height: 150px;
+  }
+
+  #c {
+    background-color:lightcoral;
+    height: 125px;
+  }
+
+  #d {
+    background-color: lightcyan;
+    height: 125px;
+  }
+
+  #e {
+    background-color:lavender; 
+  }
+
+  #f {
+    background-color: lavenderblush;
+}
+
+  #g {
+    background-color:lawngreen;
+  }
+
+  #h {
+    background-color: lightgoldenrodyellow;
+  }
+
+  #j {
+    background-color: lightgray;
+    height: 80px;
+  }
+}
+
+@media (min-width: 769px) {
+  /* desktop */
+  body {
+    min-width: 769px;
+    /* margin: auto; */
+  }
+  html, body {
+    width: 100%;
+  }
+  
+  #header {
+    width: 100%;
+    height: 100px; 
+  }
+
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #content {
+    width: 79.2%;
+  }
+
+  #nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:20.8%;
+    height: 600px;
+  }
+
+  #nav > p{
+    width:100%;
+    height: 600px;
+  }
+
+  #largeContent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    /* display: inline-block; */
+  }
+  
+  #largeContent > p {
+    width: 50%;
+    height: 200px;
+  }
+
+  #smallContent {
+    width: 100%;
+    height: 250px;
+  }
+
+  #smallContent > p {
+    width: 25%;
+    height: 250px;
+  }
+  
+  #footer {
+    width: 79.2%;
+    height: 150px;
+  }
+
+  #j {
+    width: 100%;
+    height: 150px;
+  }
+
+  #a, #b, #c, #d, #e, #f, #g, #h, #j {
+    border: solid black;
+  }
+
+  #a {
+     background-color: firebrick;
+  }
+  #b {
+    background-color: floralwhite;
+  }
+  #c, #d {
+    background-color: forestgreen;
+  }
+
+  #e, #f, #g, #h {
+ 
+    background-color: fuchsia;
+  }
+
+  #f{
+    background-color: gainsboro;
+  }
+
+  #g {
+    background-color: ghostwhite;
+  }
+  
+  #h {
+    background-color: gold;
+  }
+
+  #j {
+    background-color: goldenrod;
+  }
+}
