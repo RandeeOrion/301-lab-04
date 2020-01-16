@@ -163,7 +163,7 @@
 
   #f {
     background-color: lavenderblush;
-}
+  }
 
   #g {
     background-color:lawngreen;
@@ -191,7 +191,7 @@
   
   #header {
     width: 100%;
-    height: 100px; 
+    /* height: 100px;  */
   }
 
   main {
@@ -242,7 +242,7 @@
   }
   
   #footer {
-    width: 79.2%;
+    width: 100%;
     height: 150px;
   }
 
@@ -263,6 +263,10 @@
   }
   #c, #d {
     background-color: forestgreen;
+  }
+
+  #d {
+    background-color: thistle;
   }
 
   #e, #f, #g, #h {
